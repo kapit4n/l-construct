@@ -5,7 +5,11 @@
   </nb-layout-header>
 
   <nb-layout-column>
-
+    <nb-list>
+      <nb-list-item *ngFor="let p of projects">
+        {{ p.name }}
+      </nb-list-item>
+    </nb-list>
     
     <router-outlet></router-outlet>
     

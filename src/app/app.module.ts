@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
+import { NbListModule } from '@nebular/theme';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
     AppRoutingModule,
     BrowserAnimationsModule,
     NbThemeModule.forRoot({ name: 'cosmic' }),
-    NbLayoutModule
+    NbLayoutModule,
+    NbListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
