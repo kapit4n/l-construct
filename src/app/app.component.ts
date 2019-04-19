@@ -1,21 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { ProjectsService, Project } from './services/projects.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'l-construct';
+  projects: Project[];
 
-  projects = [
-    {
-      id: 1,
-      name: "project 1"
-    },
-    {
-      id: 2,
-      name: "project 2"
-    },
-  ] 
+  constructor(private projectsSvc: ProjectsService) {
+  }
+
+  ngOnInit() {
+    this.projectsSvc.getProjects().subscribe(data => {
+      this.projects = data;
+    })
+  }
 }
