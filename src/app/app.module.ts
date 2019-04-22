@@ -12,11 +12,9 @@ import { NbAuthModule } from '@nebular/auth';
 import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from '@nebular/theme';
 import { NbAuthJWTToken, NbAuthService, NbDummyAuthStrategy } from '@nebular/auth';
 
-import { NgxLoginComponent } from './login/login.component';
-
 @NgModule({
   declarations: [
-    AppComponent, NgxLoginComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,

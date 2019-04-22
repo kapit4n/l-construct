@@ -1,10 +1,10 @@
 <nb-layout>
 
   <nb-layout-header fixed>
-    <a href="/login" >Login</a> | 
-    <nb-auth-block>
-      <a href="/projects" >Projects</a> | 
-      <a href="/logout" >Logout</a>
+    <a routerLink="/login" >Login</a> | 
+    <nb-auth-block *ngIf="isAuthenticated">
+      <a routerLink="/projects" >Projects</a> | 
+      <a routerLink="/logout" >Logout</a>
     </nb-auth-block>
   </nb-layout-header>
 
