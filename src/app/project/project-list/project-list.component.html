@@ -1,0 +1,11 @@
+<nb-auth-block>
+  <nb-list>
+    <nb-list-item *ngFor="let p of projects">
+      <img src="{{p.img}}" style="height: 90px; " />
+      <div style="display: inline-block;">
+        {{ p.name }} <br />
+        <button nbButton size="xsmall">Open</button>
+      </div>
+    </nb-list-item>
+  </nb-list>
+</nb-auth-block>

@@ -14,8 +14,5 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.projectsSvc.getProjects().subscribe(data => {
-      this.projects = data;
-    })
   }
 }

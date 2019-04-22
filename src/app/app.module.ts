@@ -8,9 +8,15 @@ import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
 import { NbListModule } from '@nebular/theme';
 import { HttpClientModule } from '@angular/common/http';
 
+import { NbAuthModule } from '@nebular/auth';
+import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from '@nebular/theme';
+import { NbAuthJWTToken, NbAuthService, NbDummyAuthStrategy } from '@nebular/auth';
+
+import { NgxLoginComponent } from './login/login.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, NgxLoginComponent
   ],
   imports: [
     BrowserModule,
@@ -19,9 +25,21 @@ import { HttpClientModule } from '@angular/common/http';
     NbThemeModule.forRoot({ name: 'cosmic' }),
     NbLayoutModule,
     NbListModule,
-    HttpClientModule
+    HttpClientModule,
+    NbAlertModule,
+    NbInputModule,
+    NbButtonModule,
+    NbCheckboxModule,
+    NbAuthModule.forRoot({
+      strategies: [
+        NbDummyAuthStrategy.setup({
+          name: 'email'
+        }),
+      ],
+      forms: {},
+    }), 
   ],
-  providers: [],
+  providers: [NbAuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
