@@ -12,6 +12,8 @@ import { NbAuthModule } from '@nebular/auth';
 import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from '@nebular/theme';
 import { NbAuthJWTToken, NbAuthService, NbDummyAuthStrategy } from '@nebular/auth';
 
+import { AuthGuard } from "./guards/auth.guard";
+
 @NgModule({
   declarations: [
     AppComponent
@@ -37,7 +39,7 @@ import { NbAuthJWTToken, NbAuthService, NbDummyAuthStrategy } from '@nebular/aut
       forms: {},
     }), 
   ],
-  providers: [NbAuthService],
+  providers: [NbAuthService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { NbAuthComponent, NbLogoutComponent, NbLoginComponent } from '@nebular/auth';  // <---
+import { AuthGuard } from "./guards/auth.guard";
 
 const routes: Routes = [
   {
@@ -20,7 +21,8 @@ const routes: Routes = [
   },
   {
     path: 'projects',
-    loadChildren: './project/project.module#ProjectModule' 
+    loadChildren: './project/project.module#ProjectModule',
+    canActivate: [AuthGuard]
   }
 ];
 
