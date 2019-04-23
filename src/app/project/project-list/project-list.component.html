@@ -1,4 +1,5 @@
 <nb-auth-block>
+  <a nbButton routerLink="/projects/add" size="large" status="primary">+</a>
   <nb-card accent="info" *ngFor="let p of projects">
     <nb-card-header>
       {{ p.name }}
@@ -7,8 +8,8 @@
       {{p.description}}
     </nb-card-body>
     <nb-card-footer>
-      <a nbButton routerLink="/projects/1" size="large" status="primary">Open</a>
-      <a nbButton routerLink="/projects-edit/1" size="large" status="primary">Edit</a>
+      <a nbButton routerLink="/projects/view/1" size="large" status="primary">Open</a>
+      <a nbButton routerLink="/projects/edit/1" size="large" status="primary">Edit</a>
       <a nbButton size="large" status="primary">Delete</a>
     </nb-card-footer>
   </nb-card>
