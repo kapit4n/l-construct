@@ -28,6 +28,4 @@ export class ProjectAddComponent implements OnInit {
     this.router.navigate(["/projects"]);
   }
 
-
-
 }

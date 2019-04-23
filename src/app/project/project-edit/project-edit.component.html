@@ -1,0 +1,17 @@
+<nb-card>
+    <nb-card-header>
+      <input nbInput fullWidth placeholder="Name" [(ngModel)]="data.name">
+    </nb-card-header>
+    <nb-card-body>
+        <input nbInput fullWidth placeholder="http://" [(ngModel)]="data.img">
+        <img src="{{data.img}}" alt="">
+        <p>
+          <textarea nbInput fullWidth placeholder="Project description" [(ngModel)]="data.description" cols="50" rows="10">
+          </textarea>
+        </p>
+    </nb-card-body>
+    <nb-card-footer>
+      <button nbButton (click)="save()">Save</button>
+      <button nbButton>Cancel</button>
+    </nb-card-footer>
+  </nb-card>
