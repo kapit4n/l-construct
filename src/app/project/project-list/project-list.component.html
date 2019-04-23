@@ -1,11 +1,15 @@
 <nb-auth-block>
-  <nb-list>
-    <nb-list-item *ngFor="let p of projects">
-      <img src="{{p.img}}" style="height: 90px; " />
-      <div style="display: inline-block;">
-        {{ p.name }} <br />
-        <button nbButton size="xsmall">Open</button>
-      </div>
-    </nb-list-item>
-  </nb-list>
+  <nb-card accent="info" *ngFor="let p of projects">
+    <nb-card-header>
+      {{ p.name }}
+    </nb-card-header>
+    <nb-card-body>
+      {{p.description}}
+    </nb-card-body>
+    <nb-card-footer>
+      <button nbButton size="large" status="primary">Open</button>
+      <button nbButton size="large" status="primary">Edit</button>
+      <button nbButton size="large" status="primary">Delete</button>
+    </nb-card-footer>
+  </nb-card>
 </nb-auth-block>

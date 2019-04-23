@@ -2,11 +2,13 @@
   {
     "id": 1,
     "name": "Project 1",
-    "img": "https://cdn.peri.com/.imaging/l/dam/16861cce-c47e-42b4-9fd7-97b3b19e6476/44350/peri-up-for-building-construction-projects.jpg" 
+    "description": "A building, or edifice, is a structure with a roof and walls standing more or less permanently in one place, such as a house or factory. Wikipedia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Forsyth_Barr_Building%2C_Christchurch_02.JPG/240px-Forsyth_Barr_Building%2C_Christchurch_02.JPG" 
   },
   {
     "id": 2,
     "name": "Project 2",
+    "description": "Project 2 description",
     "img": "https://5.imimg.com/data5/CJ/YE/MY-37298931/building-construction-500x500.jpg" 
   }
 ]

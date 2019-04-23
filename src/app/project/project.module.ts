@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
+import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
 import { NbListModule } from '@nebular/theme';
 import { NbAuthModule } from '@nebular/auth';
 
@@ -15,7 +15,8 @@ import { ProjectListComponent } from './project-list/project-list.component';
     NbThemeModule,
     NbLayoutModule,
     NbListModule,
-    NbAuthModule
+    NbAuthModule,
+    NbCardModule
   ]
 })
 export class ProjectModule { }

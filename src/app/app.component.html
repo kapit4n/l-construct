@@ -1,9 +1,9 @@
 <nb-layout>
 
   <nb-layout-header fixed>
-    <a routerLink="/login" >Login</a> | 
+    <a routerLink="/login" >Login</a> 
     <nb-auth-block *ngIf="isAuthenticated">
-      <a routerLink="/projects" >Projects</a> | 
+      | <a routerLink="/projects" >Projects</a> | 
       <a routerLink="/logout" >Logout</a>
     </nb-auth-block>
   </nb-layout-header>
