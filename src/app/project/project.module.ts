@@ -6,9 +6,10 @@ import { NbAuthModule } from '@nebular/auth';
 
 import { ProjectRoutingModule } from './project-routing.module';
 import { ProjectListComponent } from './project-list/project-list.component';
+import { ProjectViewComponent } from './project-view/project-view.component';
 
 @NgModule({
-  declarations: [ProjectListComponent],
+  declarations: [ProjectListComponent, ProjectViewComponent],
   imports: [
     CommonModule,
     ProjectRoutingModule,
