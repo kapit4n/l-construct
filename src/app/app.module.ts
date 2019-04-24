@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
 import { NbListModule } from '@nebular/theme';
+import { NbSidebarModule } from '@nebular/theme';
 import { HttpClientModule } from '@angular/common/http';
 
 import { NbAuthModule } from '@nebular/auth';
@@ -24,13 +25,14 @@ import { AuthGuard } from "./guards/auth.guard";
     AppRoutingModule,
     BrowserAnimationsModule,
     NbThemeModule.forRoot({ name: 'cosmic' }),
-    NbLayoutModule,
     NbListModule,
     HttpClientModule,
     NbAlertModule,
     NbInputModule,
     NbButtonModule,
     NbMenuModule,
+    NbLayoutModule,
+    NbSidebarModule.forRoot(),
     NbCheckboxModule,
     NbMenuModule.forRoot(),
     NbAuthModule.forRoot({

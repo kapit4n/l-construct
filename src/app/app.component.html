@@ -1,14 +1,19 @@
 <nb-layout>
 
-  <nb-layout-header fixed>
-    <a routerLink="/login" *ngIf="!isAuthenticated">Login</a> 
-    <nb-auth-block *ngIf="isAuthenticated">
-        <nb-menu  [items]="menuItems"></nb-menu>
-    </nb-auth-block>
+  <nb-layout-header subheader>
+      <a href="#" (click)="toggle()"><i class="nb-menu"></i>M</a>
   </nb-layout-header>
 
+  <nb-sidebar>
+      <a routerLink="/login" *ngIf="!isAuthenticated">Login</a> 
+      <nb-auth-block *ngIf="isAuthenticated">
+          <nb-menu  [items]="menuItems"></nb-menu>
+      </nb-auth-block>
+  
+  </nb-sidebar>
   <nb-layout-column>
     <router-outlet></router-outlet>
+    
   </nb-layout-column>
 
   <nb-layout-footer fixed>

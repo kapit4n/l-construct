@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProjectsService, Project } from './services/projects.service';
 import { NbAuthService } from '@nebular/auth';
 import { NbMenuItem } from '@nebular/theme';
+import { NbSidebarService } from '@nebular/theme';
 
 @Component({
   selector: 'app-root',
@@ -48,7 +49,8 @@ export class AppComponent implements OnInit {
     }
   ]
   constructor(private projectsSvc: ProjectsService,
-              private authSvc: NbAuthService) {
+              private authSvc: NbAuthService, 
+              private sidebarService: NbSidebarService) {
   }
 
   ngOnInit() {
@@ -59,5 +61,10 @@ export class AppComponent implements OnInit {
     this.authSvc.onAuthenticationChange().subscribe(data => {
       this.isAuthenticated = data;
     })
+  }
+
+  toggle() {
+    this.sidebarService.toggle(true);
+    return false;
   }
 }
