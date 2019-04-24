@@ -23,6 +23,31 @@ const routes: Routes = [
     path: 'projects',
     loadChildren: './project/project.module#ProjectModule',
     canActivate: [AuthGuard]
+  },
+  {
+    path: 'materials',
+    loadChildren: './materials/materials.module#MaterialsModule',
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'contractors',
+    loadChildren: './contractors/contractors.module#ContractorsModule',
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'contracts',
+    loadChildren: './contracts/contracts.module#ContractsModule',
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'equipment',
+    loadChildren: './equipment/equipment.module#EquipmentModule',
+    canActivate: [AuthGuard]
+  },
+  {
+    path: 'estimations',
+    loadChildren: './estimations/estimations.module#EstimationsModule',
+    canActivate: [AuthGuard]
   }
 ];
 
