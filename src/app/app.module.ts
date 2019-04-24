@@ -24,7 +24,7 @@ import { AuthGuard } from "./guards/auth.guard";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NbThemeModule.forRoot({ name: 'cosmic' }),
+    NbThemeModule.forRoot({ name: 'default' }),
     NbListModule,
     HttpClientModule,
     NbAlertModule,
