@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ProjectsService, Project } from './services/projects.service';
 import { NbAuthService } from '@nebular/auth';
 import { NbMenuItem } from '@nebular/theme';
-import { homedir } from 'os';
 
 @Component({
   selector: 'app-root',
@@ -19,12 +18,29 @@ export class AppComponent implements OnInit {
       link: '/'
     },
     {
-      title: "projects",
+      title: "Projects",
       link: '/projects'
     },
     {
-      title: 'materials',
+      title: 'Materials',
       link: '/materials'
+    },
+    
+    {
+      title: 'Contractors',
+      link: '/contractors'
+    },
+    {
+      title: 'Contracts',
+      link: '/contracts'
+    },
+    {
+      title: 'Equipment',
+      link: '/equipment'
+    },
+    {
+      title: 'Estimations',
+      link: '/estimations'
     },
     {
       title: 'Logout',
