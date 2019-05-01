@@ -1,0 +1,15 @@
+<nb-card>
+  <nb-card-header>
+    <input nbInput fullWidth placeholder="Name">
+  </nb-card-header>
+  <nb-card-body>
+      <input nbInput fullWidth placeholder="Category">
+      <input nbInput fullWidth placeholder="http://">
+      <textarea nbInput fullWidth placeholder="Project description" cols="50" rows="10">
+      </textarea>
+  </nb-card-body>
+  <nb-card-footer>
+    <button nbButton (click)="save()">Save</button>
+    <button nbButton (click)="cancel()">Cancel</button>
+  </nb-card-footer>
+</nb-card>

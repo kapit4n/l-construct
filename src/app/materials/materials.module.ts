@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
 import { NbListModule } from '@nebular/theme';
 import { NbInputModule } from '@nebular/theme';
+import { NbBadgeModule } from '@nebular/theme';
 import { NbAuthModule } from '@nebular/auth';
 
 import { MaterialsRoutingModule } from './materials-routing.module';
@@ -22,7 +23,8 @@ import { MaterialViewComponent } from './material-view/material-view.component';
     NbListModule,
     NbAuthModule,
     NbCardModule,
-    NbInputModule
+    NbInputModule,
+    NbBadgeModule
   ]
 })
 export class MaterialsModule { }

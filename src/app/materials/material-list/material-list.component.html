@@ -2,7 +2,7 @@
   <button nbButton routerLink="/materials/add" shape="round" size="small" status="primary">+</button>
   <nb-card accent="info" *ngFor="let m of materials">
     <nb-card-header>
-      {{ m.name }}
+      {{ m.name }} [{{m.category}}]
     </nb-card-header>
     <nb-card-body>
       {{m.description}}
