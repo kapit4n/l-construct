@@ -9,9 +9,10 @@ import { NbAuthModule } from '@nebular/auth';
 import { MaterialsRoutingModule } from './materials-routing.module';
 import { MaterialListComponent } from './material-list/material-list.component';
 import { MaterialAddComponent } from './material-add/material-add.component';
+import { MaterialViewComponent } from './material-view/material-view.component';
 
 @NgModule({
-  declarations: [MaterialListComponent, MaterialAddComponent],
+  declarations: [MaterialListComponent, MaterialAddComponent, MaterialViewComponent],
   imports: [
     CommonModule,
     FormsModule,
