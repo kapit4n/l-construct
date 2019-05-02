@@ -1,0 +1,16 @@
+<nb-auth-block>
+  <button nbButton routerLink="/equipments/add" shape="round" size="small" status="primary">+</button>
+  <nb-card accent="info" *ngFor="let p of equipments">
+    <nb-card-header>
+      {{ p.name }}
+    </nb-card-header>
+    <nb-card-body>
+      {{p.description}}
+    </nb-card-body>
+    <nb-card-footer>
+      <a nbButton routerLink="{{'/equipments/view/' + p.id}}" size="large" status="primary">Open</a>
+      <a nbButton routerLink="{{'/equipments/edit/' + p.id}}" size="large" status="primary">Edit</a>
+      <a nbButton size="large" status="primary">Delete</a>
+    </nb-card-footer>
+  </nb-card>
+</nb-auth-block>

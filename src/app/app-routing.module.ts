@@ -40,8 +40,8 @@ const routes: Routes = [
     canActivate: [AuthGuard]
   },
   {
-    path: 'equipment',
-    loadChildren: './equipment/equipment.module#EquipmentModule',
+    path: 'equipments',
+    loadChildren: './equipments/equipments.module#EquipmentsModule',
     canActivate: [AuthGuard]
   },
   {
