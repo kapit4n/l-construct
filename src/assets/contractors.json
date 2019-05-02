@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Juan Palacios",
+    "address": "Los Angeles, 1212 St",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Juan_Palacios_by_Augustas_Didzgalvis.jpg/250px-Juan_Palacios_by_Augustas_Didzgalvis.jpg" 
+  },
+  {
+    "id": 2,
+    "name": "Jhon Dias",
+    "address": "Santiago, 1414 St",
+    "photo": "http://cdn4.sussexdirectories.com/rms/rms_photos/sized/92/22/312292-778093-2_320x400.jpg?pu=1478797293" 
+  }
+]

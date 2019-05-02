@@ -7,7 +7,6 @@ import { ProjectsService, Project } from '../../services/projects.service';
   styleUrls: ['./project-list.component.scss']
 })
 export class ProjectListComponent implements OnInit {
-  title = 'l-construct';
   projects: Project[];
 
   constructor(private projectsSvc: ProjectsService) {
