@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ContractorListComponent } from './contractor-list/contractor-list.component';
 import { ContractorViewComponent } from './contractor-view/contractor-view.component';
+import { ContractorAddComponent } from './contractor-add/contractor-add.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'view/:id',
     component: ContractorViewComponent
+  },
+  {
+    path: 'add',
+    component: ContractorAddComponent
   }
 ];
 

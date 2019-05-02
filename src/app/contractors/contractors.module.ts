@@ -9,9 +9,10 @@ import { NbAuthModule } from '@nebular/auth';
 import { ContractorsRoutingModule } from './contractors-routing.module';
 import { ContractorListComponent } from './contractor-list/contractor-list.component';
 import { ContractorViewComponent } from './contractor-view/contractor-view.component';
+import { ContractorAddComponent } from './contractor-add/contractor-add.component';
 
 @NgModule({
-  declarations: [ContractorListComponent, ContractorViewComponent],
+  declarations: [ContractorListComponent, ContractorViewComponent, ContractorAddComponent],
   imports: [
     CommonModule,
     ContractorsRoutingModule,
