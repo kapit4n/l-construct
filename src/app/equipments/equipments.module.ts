@@ -8,9 +8,10 @@ import { NbAuthModule } from '@nebular/auth';
 
 import { EquipmentsRoutingModule } from './equipments-routing.module';
 import { EquipmentListComponent } from './equipment-list/equipment-list.component';
+import { EquipmentViewComponent } from './equipment-view/equipment-view.component';
 
 @NgModule({
-  declarations: [EquipmentListComponent],
+  declarations: [EquipmentListComponent, EquipmentViewComponent],
   imports: [
     CommonModule,
     EquipmentsRoutingModule,

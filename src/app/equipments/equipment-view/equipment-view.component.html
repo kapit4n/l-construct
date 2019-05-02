@@ -1,0 +1,15 @@
+<nb-card>
+  <nb-card-header>
+    {{data.name}}
+  </nb-card-header>
+  <nb-card-body>
+      <img src="{{data.img}}" alt="">
+      <p>
+        {{data.description}}
+      </p>
+  </nb-card-body>
+  <nb-card-footer>
+      <a nbButton routerLink="{{'/equipments/edit/' + data.id}}" size="large" status="primary">Edit</a>
+      <a nbButton size="large" status="danger">Delete</a>
+    </nb-card-footer>
+</nb-card>
