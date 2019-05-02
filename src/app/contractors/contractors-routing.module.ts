@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ContractorListComponent } from './contractor-list/contractor-list.component';
 import { ContractorViewComponent } from './contractor-view/contractor-view.component';
 import { ContractorAddComponent } from './contractor-add/contractor-add.component';
+import { ContractorEditComponent } from './contractor-edit/contractor-edit.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'view/:id',
     component: ContractorViewComponent
+  },
+  {
+    path: 'edit/:id',
+    component: ContractorEditComponent
   },
   {
     path: 'add',

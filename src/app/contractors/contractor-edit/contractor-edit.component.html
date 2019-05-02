@@ -1,0 +1,14 @@
+<nb-card>
+  <nb-card-header>
+    <input nbInput fullWidth placeholder="Name" [(ngModel)]="data.name">
+  </nb-card-header>
+  <nb-card-body>
+    <input nbInput fullWidth placeholder="photo.jpg" [(ngModel)]="data.photo">
+    <textarea nbInput fullWidth placeholder="Address" [(ngModel)]="data.address" cols="50" rows="8">
+          </textarea>
+  </nb-card-body>
+  <nb-card-footer>
+    <button nbButton (click)="save()">Save</button>
+    <button nbButton (click)="cancel()">Cancel</button>
+  </nb-card-footer>
+</nb-card>

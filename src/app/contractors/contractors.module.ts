@@ -10,12 +10,14 @@ import { ContractorsRoutingModule } from './contractors-routing.module';
 import { ContractorListComponent } from './contractor-list/contractor-list.component';
 import { ContractorViewComponent } from './contractor-view/contractor-view.component';
 import { ContractorAddComponent } from './contractor-add/contractor-add.component';
+import { ContractorEditComponent } from './contractor-edit/contractor-edit.component';
 
 @NgModule({
-  declarations: [ContractorListComponent, ContractorViewComponent, ContractorAddComponent],
+  declarations: [ContractorListComponent, ContractorViewComponent, ContractorAddComponent, ContractorEditComponent],
   imports: [
     CommonModule,
     ContractorsRoutingModule,
+    FormsModule,
     NbThemeModule,
     NbLayoutModule,
     NbListModule,
