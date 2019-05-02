@@ -1,0 +1,13 @@
+<nb-card>
+    <nb-card-body>
+        <img src="{{data.photo}}" alt="" width="250px" style="display: inline-flex;">
+        <div style="display: inline-flex; padding-left: 10px;">
+          Name: {{data.name}} <br />
+          Address: {{data.address}}
+        </div>
+    </nb-card-body>
+    <nb-card-footer>
+        <a nbButton routerLink="{{'/contractors/edit/' + data.id}}" size="large" status="primary">Edit</a>
+        <a nbButton size="large" status="danger">Delete</a>
+      </nb-card-footer>
+  </nb-card>
