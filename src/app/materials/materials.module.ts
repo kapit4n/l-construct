@@ -1,13 +1,27 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
+import { NbListModule } from '@nebular/theme';
+import { NbInputModule } from '@nebular/theme';
+import { NbAuthModule } from '@nebular/auth';
 
 import { MaterialsRoutingModule } from './materials-routing.module';
+import { MaterialListComponent } from './material-list/material-list.component';
+import { MaterialAddComponent } from './material-add/material-add.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [MaterialListComponent, MaterialAddComponent],
   imports: [
     CommonModule,
-    MaterialsRoutingModule
+    FormsModule,
+    MaterialsRoutingModule,
+    NbThemeModule,
+    NbLayoutModule,
+    NbListModule,
+    NbAuthModule,
+    NbCardModule,
+    NbInputModule
   ]
 })
 export class MaterialsModule { }

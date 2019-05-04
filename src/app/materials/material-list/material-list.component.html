@@ -1,0 +1,16 @@
+<nb-auth-block>
+  <button nbButton routerLink="/materials/add" shape="round" size="small" status="primary">+</button>
+  <nb-card accent="info" *ngFor="let m of materials">
+    <nb-card-header>
+      {{ m.name }}
+    </nb-card-header>
+    <nb-card-body>
+      {{m.description}}
+    </nb-card-body>
+    <nb-card-footer>
+      <a nbButton routerLink="{{'/materials/view/' + m.id}}" size="large" status="primary">Open</a>
+      <a nbButton routerLink="{{'/materials/edit/' + m.id}}" size="large" status="primary">Edit</a>
+      <a nbButton size="large" status="primary">Delete</a>
+    </nb-card-footer>
+  </nb-card>
+</nb-auth-block>

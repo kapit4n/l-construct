@@ -5,8 +5,9 @@ import { Observable } from 'rxjs';
 export  interface Material {
   id: number;
   name: string;
-  img: string;
   description: string;
+  img: string;
+  category: string;
 }
 
 @Injectable({
