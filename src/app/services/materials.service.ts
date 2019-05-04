@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-export  interface Project {
+export  interface Material {
   id: number;
   name: string;
   img: string;
@@ -12,14 +12,14 @@ export  interface Project {
 @Injectable({
   providedIn: 'root'
 })
-export class ProjectsService {
+export class MaterialsService {
 
-  projectsUrl = '../assets/projects.json';
+  materialsUrl = '../assets/materials.json';
 
   constructor(private http: HttpClient) { }
 
-  getProjects(): Observable<Project[]> {
-    return this.http.get(this.projectsUrl) as Observable<Project[]>;
+  getMaterials(): Observable<Material[]> {
+    return this.http.get(this.materialsUrl) as Observable<Material[]>;
   }
 
 }
