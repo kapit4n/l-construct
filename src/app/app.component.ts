@@ -26,7 +26,6 @@ export class AppComponent implements OnInit {
       title: 'Materials',
       link: '/materials'
     },
-    
     {
       title: 'Contractors',
       link: '/contractors'

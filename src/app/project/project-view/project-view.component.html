@@ -9,7 +9,7 @@
       </p>
   </nb-card-body>
   <nb-card-footer>
-      <a nbButton routerLink="/projects/edit/1" size="large" status="primary">Edit</a>
+      <a nbButton routerLink="{{'/projects/edit/' + data.id}}" size="large" status="primary">Edit</a>
       <a nbButton size="large" status="danger">Delete</a>
     </nb-card-footer>
 </nb-card>
