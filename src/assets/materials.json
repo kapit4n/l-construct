@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Steel framing",
+    "description": "Steel frame is a building technique with a skeleton frame of vertical steel columns and horizontal I-beams, constructed in a rectangular grid to support the floors, roof and walls of a building which are all attached to the frame. The development of this technique made the construction of the skyscraper possible.",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Steel_frame_development.JPG/220px-Steel_frame_development.JPG",
+    "category": "Steel frames" 
+  },
+  {
+    "id": 2,
+    "name": "Mezzanine floors",
+    "description": "A mezzanine floor is an intermediate floor between main floors of a building, and therefore typically not counted among the overall floors of a ...",
+    "img": "http://www.industrialsteelstorageracks.com/photo/pl15591014-steel_mezzanine_floor_construction_for_storage_industrial_mezzanine_systems.jpg",
+    "category": "Steel frames" 
+  },{
+    "id": 3,
+    "name": "Concrete",
+    "description": "Aggregate consists of large chunks of material in a concrete mix, generally a coarse gravel or crushed rocks such as limestone, or granite, along with finer materials such as sand. A cement, most commonly Portland cement, is the most prevalent kind of concrete binder.",
+    "img": "https://theconstructor.org/wp-content/uploads/2014/05/self-compacting-concrete.jpg",
+    "category": "Concrete" 
+  },{
+    "id": 4,
+    "name": "Concrete",
+    "description": "Aggregate consists of large chunks of material in a concrete mix, generally a coarse gravel or crushed rocks such as limestone, or granite, along with finer materials such as sand. A cement, most commonly Portland cement, is the most prevalent kind of concrete binder.",
+    "img": "https://theconstructor.org/wp-content/uploads/2014/05/self-compacting-concrete.jpg",
+    "category": "Concrete" 
+  },{
+    "id": 5,
+    "name": "Plywood",
+    "description": "Plywood is a material manufactured from thin layers or "plies" of wood veneer that are glued together with adjacent layers having their wood grain rotated up to ...",
+    "img": "https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-800x800/ea15434f-18a5-400a-b57a-a916206e6cb3.jpg",
+    "category": "Composite" 
+  }
+]
