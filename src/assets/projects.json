@@ -1,14 +1,26 @@
 [
   {
     "id": 1,
-    "name": "Project 1",
-    "description": "A building, or edifice, is a structure with a roof and walls standing more or less permanently in one place, such as a house or factory. Wikipedia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Forsyth_Barr_Building%2C_Christchurch_02.JPG/240px-Forsyth_Barr_Building%2C_Christchurch_02.JPG" 
+    "name": "The Spheres",
+    "description": "The Amazon Spheres are formed of three conjoined glass domes that radically rethink the way an office can look, feel, smell and sound. The spheres, located in Seattle, aim to transform and reinvent how we work by connecting people and plants together in an unprecedented way.",
+    "img": "https://www.architecturalrecord.com/ext/resources/news/2018/01-January/Amazon-Spheres/Amazon-Spheres-NBBJ-Open-in-Seattle-01.jpg" 
   },
   {
     "id": 2,
-    "name": "Project 2",
-    "description": "Project 2 description",
-    "img": "https://5.imimg.com/data5/CJ/YE/MY-37298931/building-construction-500x500.jpg" 
+    "name": "Peconic House",
+    "description": "Architects Mapos Location Hampton Bays, United States Category Houses Interiors Interior Designer Mapos Lighting Designer Mapos Landscape Design John Beitel Area 4000.0 ft2 Project Year 2016 Photographs Michael Moran Manufacturers Duravit, Fleetwood, Geberit, Kohler, Lindsey Adelman, Maharam, Mecho Systems, Rich Brilliant Willing, Stone Source, Viking, Vitrocsa, Tebbens Steel, Eurofase, John Beitel, LCK Enterprises, NY Green Roof, Gagenau, Madera-Trade, Waterworks, Apa Visa + 5",
+    "img": "https://images.adsttc.com/media/images/5b91/efd4/f197/cc30/e000/055d/newsletter/04_1625AE_04.jpg?1536290756" 
+  },
+  {
+    "id": 3,
+    "name": "Peconic House",
+    "description": "This low-slung residence in rural Connecticut, completed by New York firm Deborah Berke Partners, is clad in black siding to blend into the surrounding forest. The Sackett Hill House sits on an expansive property that enjoys distant landscape views, and is approached via a long winding driveway from which it gradual appears from between the tree",
+    "img": "https://static.dezeen.com/uploads/2018/09/sackett-hill-house-deborah-berke-partners-architecture-black-new-york-usa_dezeen_sq1.jpg" 
+  },
+  {
+    "id": 4,
+    "name": "McDonald's Chicago Flagship",
+    "description": "Fast-food chain McDonald's replaced its iconic Rock N Roll restaurant in Chicago with a building by Ross Barney Architects that is unlike any in the company's portfolio. The steel and timber structure boasts a number of sustainable elements, including a canopy of solar panels, and was compared to tech giant Apple's stores by several news outlets.",
+    "img": "https://static.dezeen.com/uploads/2018/08/mcdonalds-chicago-ross-barney-architects_dezeen_sq3.jpg" 
   }
 ]
