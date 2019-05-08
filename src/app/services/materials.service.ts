@@ -8,6 +8,8 @@ export  interface Material {
   description: string;
   img: string;
   category: string;
+  cost: number;
+  unitCost: string;
 }
 
 @Injectable({
