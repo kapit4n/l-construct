@@ -27,16 +27,20 @@ export class AppComponent implements OnInit {
       link: '/materials'
     },
     {
+      title: 'Equipments',
+      link: '/equipments'
+    },
+    {
+      title: 'Components',
+      link: '/components'
+    },
+    {
       title: 'Contractors',
       link: '/contractors'
     },
     {
       title: 'Contracts',
       link: '/contracts'
-    },
-    {
-      title: 'Equipments',
-      link: '/equipments'
     },
     {
       title: 'Estimations',

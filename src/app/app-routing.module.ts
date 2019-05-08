@@ -45,6 +45,11 @@ const routes: Routes = [
     canActivate: [AuthGuard]
   },
   {
+    path: 'components',
+    loadChildren: './components/components.module#ComponentsModule',
+    canActivate: [AuthGuard]
+  },
+  {
     path: 'estimations',
     loadChildren: './estimations/estimations.module#EstimationsModule',
     canActivate: [AuthGuard]

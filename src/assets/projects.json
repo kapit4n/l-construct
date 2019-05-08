@@ -5,9 +5,9 @@
     "description": "The Amazon Spheres are formed of three conjoined glass domes that radically rethink the way an office can look, feel, smell and sound. The spheres, located in Seattle, aim to transform and reinvent how we work by connecting people and plants together in an unprecedented way.",
     "img": "https://www.architecturalrecord.com/ext/resources/news/2018/01-January/Amazon-Spheres/Amazon-Spheres-NBBJ-Open-in-Seattle-01.jpg" ,
     "components" : [
-      "Shooping room type 2(5)",
       "Garden Water",
-      "Pool fiberglass"
+      "Pool fiberglass",
+      "Shooping room type 2(5)"
     ]
   },
   {

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Kitchen One-wall",
+    "img": "http://cdn.home-designing.com/wp-content/uploads/2018/06/kitchen-along-one-wall.jpg",
+    "cost": 4000,
+    "unitCost": "unit",
+    "description": "For some, a one-wall kitchen is nothing special, for others the concept is unusual. One-wall kitchens are generally encountered in small homes or efficiency apartments where floor space is very limited. ... In the case of a one-wall kitchen all the appliances, cabinets and countertops are gathered on one wall."
+  },
+  {
+    "id": 2,
+    "name": "Betroom Double",
+    "img": "http://www.ramadawarwick.co.uk/wp-content/uploads/2014/10/standard-double.jpg",
+    "cost": 10000,
+    "unitCost": "unit",
+    "description": "Double room does not necessarily mean there is a double bed in the room, although it does mean it is big enough for one. You might want to clarify with an advertiser whether a double room actually has a double bed in."
+  }
+]
