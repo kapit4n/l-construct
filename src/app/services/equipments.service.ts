@@ -6,6 +6,8 @@ export  interface Equipment {
   id: number;
   name: string;
   img: string;
+  cost: number;
+  unitCost: string;
   description: string;
 }
 

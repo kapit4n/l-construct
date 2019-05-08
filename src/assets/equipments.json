@@ -2,13 +2,17 @@
   {
     "id": 1,
     "name": "Excavator",
-    "description": "Excavators are heavy construction equipment consisting of a boom, dipper, bucket and cab on a rotating platform known as the house. The house sits atop an undercarriage with tracks or wheels. They are a natural progression from the steam shovels and often mistakenly called power shovels. Wikipedia",
-    "img": "https://s3-us-west-1.amazonaws.com/acropolis-wp-content-uploads/2017/04/product_image_22-147.jpg"
+    "img": "https://s3-us-west-1.amazonaws.com/acropolis-wp-content-uploads/2017/04/product_image_22-147.jpg",
+    "cost": 300,
+    "unitCost": "hour",
+    "description": "Excavators are heavy construction equipment consisting of a boom, dipper, bucket and cab on a rotating platform known as the house. The house sits atop an undercarriage with tracks or wheels. They are a natural progression from the steam shovels and often mistakenly called power shovels. Wikipedia"
   },
   {
     "id": 2,
     "name": "Backhoe",
-    "description": "A backhoe — also called rear actor or back actor — is a type of excavating equipment, or digger, consisting of a digging bucket on the end of a two-part articulated arm. It is typically mounted on the back of a tractor or front loader, the latter forming a 'backhoe loader",
-    "img": "https://s3-us-west-1.amazonaws.com/acropolis-wp-content-uploads/2017/04/product_image_20-230.jpg"
+    "img": "https://s3-us-west-1.amazonaws.com/acropolis-wp-content-uploads/2017/04/product_image_20-230.jpg",
+    "cost": 250,
+    "unitCost": "hour",
+    "description": "A backhoe — also called rear actor or back actor — is a type of excavating equipment, or digger, consisting of a digging bucket on the end of a two-part articulated arm. It is typically mounted on the back of a tractor or front loader, the latter forming a 'backhoe loader"
   }
 ]
