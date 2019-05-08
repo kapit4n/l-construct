@@ -3,10 +3,17 @@
     {{data.name}}
   </nb-card-header>
   <nb-card-body>
-      <img src="{{data.img}}" alt="">
+      <img src="{{data.img}}" alt="" style="width: 150px;">
       <p>
         {{data.description}}
       </p>
+      <div>
+        Contract: 1
+      </div>
+      <div>
+        Components:
+        <li *ngFor="let c of data.components">{{c}}</li>
+      </div>
   </nb-card-body>
   <nb-card-footer>
       <a nbButton routerLink="{{'/projects/edit/' + data.id}}" size="large" status="primary">Edit</a>
