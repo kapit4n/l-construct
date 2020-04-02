@@ -3,20 +3,43 @@
     {{data.name}}
   </nb-card-header>
   <nb-card-body>
-      <img src="{{data.img}}" alt="" style="width: 150px;">
-      <p>
-        {{data.description}}
-      </p>
-      <div>
-        Contract: 1
+    <img src="{{data.img}}" alt="" style="width: 150px;">
+    <div style="display: flex;">
+      <div class="price-item">
+        <span class="price-label">Material Cost</span>: 30000$
       </div>
-      <div>
-        Components:
-        <li *ngFor="let c of data.components">{{c}}</li>
+      <div class="price-item">
+        <span class="price-label">Labor Cost</span>: 50000$
       </div>
+      <div class="price-item">
+        <span class="price-label">Equipment Costs</span>: 40000$
+      </div>
+      <div class="price-item">
+        <span class="price-label">Area</span>: 300Mts X 200 Mts
+      </div>
+      <div class="price-item">
+        <span class="price-label">Labor Rates</span>: 200$
+      </div>
+      <div class="price-item">
+        <span class="price-label">Indirect Costs</span>: 4000$
+      </div>
+    </div>
+    <div class="price-item">
+      <span class="price-label">Total Cost</span>: {{30000 + 50000 + 40000 + 200 + 4000}}$
+    </div>
+    <p class="description">
+      {{data.description}}
+    </p>
+    <div>
+      Contract: 1
+    </div>
+    <div>
+      Components:
+      <li *ngFor="let c of data.components">{{c}}</li>
+    </div>
   </nb-card-body>
   <nb-card-footer>
-      <a nbButton routerLink="{{'/projects/edit/' + data.id}}" size="large" status="primary">Edit</a>
-      <a nbButton size="large" status="danger">Delete</a>
-    </nb-card-footer>
+    <a nbButton routerLink="{{'/projects/edit/' + data.id}}" size="large" status="primary">Edit</a>
+    <a nbButton size="large" status="danger">Delete</a>
+  </nb-card-footer>
 </nb-card>
