@@ -6,6 +6,7 @@ import { NbListModule } from '@nebular/theme';
 import { NbInputModule } from '@nebular/theme';
 import { NbButtonModule } from '@nebular/theme';
 import { NbAuthModule } from '@nebular/auth';
+import { NbIconModule } from '@nebular/theme';
 
 import { ProjectRoutingModule } from './project-routing.module';
 import { ProjectListComponent } from './project-list/project-list.component';
@@ -25,7 +26,8 @@ import { ProjectEditComponent } from './project-edit/project-edit.component';
     NbButtonModule,
     NbAuthModule,
     NbCardModule,
-    NbInputModule
+    NbInputModule,
+    NbIconModule
   ]
 })
 export class ProjectModule { }

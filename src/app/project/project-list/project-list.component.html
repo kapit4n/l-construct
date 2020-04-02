@@ -1,5 +1,7 @@
 <nb-auth-block class="list-container">
-  <button nbButton routerLink="/projects/add" shape="round" size="small" status="primary">+</button>
+  <button nbButton routerLink="/projects/add" size="small" status="primary" style="margin-left: 1rem;">
+    <nb-icon icon="plus"></nb-icon>
+  </button>
   <div class="projects-container">
     <nb-card accent="info" *ngFor="let p of projects" style="width: 100%; display: inline-flex; margin: 1rem;">
       <nb-card-header>
@@ -34,8 +36,10 @@
         </p>
       </nb-card-body>
       <nb-card-footer>
-        <a nbButton routerLink="{{'/projects/view/' + p.id}}" size="large" status="primary" style="margin-right: 1rem;">Open</a>
-        <a nbButton routerLink="{{'/projects/edit/' + p.id}}" size="large" status="primary" style="margin-right: 1rem;">Edit</a>
+        <a nbButton routerLink="{{'/projects/view/' + p.id}}" size="large" status="primary"
+          style="margin-right: 1rem;">Open</a>
+        <a nbButton routerLink="{{'/projects/edit/' + p.id}}" size="large" status="primary"
+          style="margin-right: 1rem;">Edit</a>
         <a nbButton size="large" status="primary">Delete</a>
       </nb-card-footer>
     </nb-card>
