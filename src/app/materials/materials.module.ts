@@ -6,6 +6,7 @@ import { NbListModule } from '@nebular/theme';
 import { NbInputModule } from '@nebular/theme';
 import { NbBadgeModule } from '@nebular/theme';
 import { NbAuthModule } from '@nebular/auth';
+import { NbButtonModule } from '@nebular/theme';
 
 import { MaterialsRoutingModule } from './materials-routing.module';
 import { MaterialListComponent } from './material-list/material-list.component';
@@ -22,6 +23,7 @@ import { MaterialEditComponent } from './material-edit/material-edit.component';
     NbThemeModule,
     NbLayoutModule,
     NbListModule,
+    NbButtonModule,
     NbAuthModule,
     NbCardModule,
     NbInputModule,

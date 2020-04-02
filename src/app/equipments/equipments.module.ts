@@ -5,6 +5,7 @@ import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
 import { NbListModule } from '@nebular/theme';
 import { NbInputModule } from '@nebular/theme';
 import { NbAuthModule } from '@nebular/auth';
+import { NbButtonModule } from '@nebular/theme';
 
 import { EquipmentsRoutingModule } from './equipments-routing.module';
 import { EquipmentListComponent } from './equipment-list/equipment-list.component';
@@ -20,6 +21,7 @@ import { EquipmentViewComponent } from './equipment-view/equipment-view.componen
     NbLayoutModule,
     NbListModule,
     NbAuthModule,
+    NbButtonModule,
     NbCardModule,
     NbInputModule
   ]

@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
 import { NbListModule } from '@nebular/theme';
 import { NbInputModule } from '@nebular/theme';
+import { NbButtonModule } from '@nebular/theme';
 import { NbAuthModule } from '@nebular/auth';
 
 import { ProjectRoutingModule } from './project-routing.module';
@@ -21,6 +22,7 @@ import { ProjectEditComponent } from './project-edit/project-edit.component';
     NbThemeModule,
     NbLayoutModule,
     NbListModule,
+    NbButtonModule,
     NbAuthModule,
     NbCardModule,
     NbInputModule

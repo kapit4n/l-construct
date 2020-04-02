@@ -5,6 +5,7 @@ import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
 import { NbListModule } from '@nebular/theme';
 import { NbInputModule } from '@nebular/theme';
 import { NbAuthModule } from '@nebular/auth';
+import { NbButtonModule } from '@nebular/theme';
 
 import { ContractorsRoutingModule } from './contractors-routing.module';
 import { ContractorListComponent } from './contractor-list/contractor-list.component';
@@ -20,6 +21,7 @@ import { ContractorEditComponent } from './contractor-edit/contractor-edit.compo
     FormsModule,
     NbThemeModule,
     NbLayoutModule,
+    NbButtonModule,
     NbListModule,
     NbAuthModule,
     NbCardModule,
