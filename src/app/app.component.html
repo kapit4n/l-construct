@@ -1,8 +1,9 @@
 <nb-layout>
   <nb-layout-header subheader>
-    <a href="#" (click)="toggle()"><i class="nb-menu"></i>M</a>
+    <button nbButton href="#" (click)="toggle()" status="primary"><nb-icon icon="home"></nb-icon>
+    </button>
   </nb-layout-header>
-  <nb-sidebar>
+  <nb-sidebar [state]="sideBarState">
     <a routerLink="/login" *ngIf="!isAuthenticated">Login</a>
     <nb-auth-block *ngIf="isAuthenticated">
       <nb-menu [items]="menuItems"></nb-menu>

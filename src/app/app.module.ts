@@ -13,6 +13,8 @@ import { NbAuthModule } from '@nebular/auth';
 import { NbAlertModule, NbButtonModule, NbCheckboxModule, NbInputModule } from '@nebular/theme';
 import { NbMenuModule } from '@nebular/theme';
 import { NbAuthJWTToken, NbAuthService, NbDummyAuthStrategy } from '@nebular/auth';
+import { NbEvaIconsModule } from '@nebular/eva-icons';
+import { NbIconModule } from '@nebular/theme';
 
 import { AuthGuard } from "./guards/auth.guard";
 
@@ -32,8 +34,10 @@ import { AuthGuard } from "./guards/auth.guard";
     NbButtonModule,
     NbMenuModule,
     NbLayoutModule,
+    NbEvaIconsModule,
     NbSidebarModule.forRoot(),
     NbCheckboxModule,
+    NbIconModule,
     NbMenuModule.forRoot(),
     NbAuthModule.forRoot({
       strategies: [

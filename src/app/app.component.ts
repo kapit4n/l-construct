@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
   title = 'l-construct';
   projects: Project[];
   isAuthenticated = false;
+  sideBarState = "compacted"
   menuItems: NbMenuItem[] = [
     {
       title: "home",
@@ -52,22 +53,26 @@ export class AppComponent implements OnInit {
     }
   ]
   constructor(private projectsSvc: ProjectsService,
-              private authSvc: NbAuthService, 
-              private sidebarService: NbSidebarService) {
+    private authSvc: NbAuthService,
+    private sidebarService: NbSidebarService) {
   }
 
   ngOnInit() {
     this.authSvc.isAuthenticated().subscribe(data => {
       this.isAuthenticated = data;
     });
-    
+
     this.authSvc.onAuthenticationChange().subscribe(data => {
       this.isAuthenticated = data;
     })
   }
 
   toggle() {
-    this.sidebarService.toggle(true);
+    if (this.sideBarState === 'expanded') {
+      this.sideBarState = 'collapsed';
+    } else {
+      this.sideBarState = 'expanded';
+    }
     return false;
   }
 }
