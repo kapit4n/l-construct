@@ -1,0 +1,29 @@
+/* Set the background color of body to tan */
+.list-container {
+    max-width: 60rem;
+}
+
+/* Set the background color of body to tan */
+.projects-container {
+    max-width: 60rem;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .list-container {
+        max-width: 60rem;
+    }
+    .projects-container {
+        max-width: 60rem;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .list-container {
+        max-width: 40rem;
+    }
+    .projects-container {
+        max-width: 40rem;
+    }
+}
